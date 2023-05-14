@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 7);
+    color: azure;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 5px;
+  }
+  .board {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: repeat(8, 40px);
+    grid-template-rows: repeat(8, 40px);
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  #score{
+    -webkit-text-stroke: 1px #0077ff;
+    color: rgb(255, 0, 0) ;
+    color: rgb(255, 0, 0);
+  }
